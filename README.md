@@ -2,16 +2,7 @@
 
 Este directorio contiene los wireframes de las principales pantallas de la aplicación PetCare Plus. Los wireframes ayudan a visualizar la disposición básica de los elementos de la interfaz de usuario antes de comenzar el desarrollo.
 
-## Descripción de Archivos
 
-- **home.png**: Wireframe de la pantalla de inicio con opciones de menú y detalles de los horarios y especialidades de la clínica.
-- **appointment-management.png**: Wireframe para la pantalla de Gestión de Citas, que permite registrar, cancelar y reprogramar citas.
-- **consulting-room-availability.png**: Wireframe que muestra la disponibilidad de consultorios según el servicio.
-- **veterinarian-schedule.png**: Wireframe para la pantalla de Agenda de Veterinarios, mostrando el horario y las citas de cada veterinario.
-
-## Cómo Ver los Wireframes
-
-Cada archivo de imagen (.png) representa una pantalla diferente. Abre estos archivos para ver la estructura de cada pantalla.
 
  Historia de Usuario
 Título: Gestión de Citas Veterinarias
