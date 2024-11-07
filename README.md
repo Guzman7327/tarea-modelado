@@ -1,27 +1,26 @@
-# Practica6
+# Wireframes para el Sistema de Gestión de Citas - PetCare Plus
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+Este directorio contiene los wireframes de las principales pantallas de la aplicación PetCare Plus. Los wireframes ayudan a visualizar la disposición básica de los elementos de la interfaz de usuario antes de comenzar el desarrollo.
 
-## Development server
+## Descripción de Archivos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **home.png**: Wireframe de la pantalla de inicio con opciones de menú y detalles de los horarios y especialidades de la clínica.
+- **appointment-management.png**: Wireframe para la pantalla de Gestión de Citas, que permite registrar, cancelar y reprogramar citas.
+- **consulting-room-availability.png**: Wireframe que muestra la disponibilidad de consultorios según el servicio.
+- **veterinarian-schedule.png**: Wireframe para la pantalla de Agenda de Veterinarios, mostrando el horario y las citas de cada veterinario.
 
-## Code scaffolding
+## Cómo Ver los Wireframes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Cada archivo de imagen (.png) representa una pantalla diferente. Abre estos archivos para ver la estructura de cada pantalla.
 
-## Build
+ Historia de Usuario
+Título: Gestión de Citas Veterinarias
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Como recepcionista de "PetCare Plus", quiero registrar y gestionar citas para los servicios veterinarios de la clínica, para poder organizar eficientemente la agenda de los veterinarios y consultorios, evitando sobreagendamientos y garantizando un flujo ordenado de pacientes.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Criterios de Aceptación:
+Poder registrar citas con los datos del dueño y de la mascota.
+Seleccionar la fecha, hora y tipo de servicio.
+Asignar veterinarios según su especialidad y disponibilidad.
+Visualizar la disponibilidad de consultorios y agendas de veterinarios.
+Cancelar o reprogramar citas, manteniendo actualizado el estado de cada una (confirmada, cancelada, completada).
